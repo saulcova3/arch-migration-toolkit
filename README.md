@@ -3,13 +3,13 @@
 
 ## 🎯 DESCRIPCIÓN
 
-Sistema automatizado para respaldar y restaurar completamente una instalación de Arch Linux, incluyendo programas, configuración y elementos personales. Soporta KDE Plasma, Hyprland y cualquier entorno de escritorio.
+Sistema automatizado para respaldar y restaurar completamente una instalación de Arch Linux, incluyendo programas, configuración y elementos personales. Soporta KDE Plasma.
 
 ## 📦 ESTRUCTURA
 
 arch_migration_project/
 ├── output/                 # 🗂️ ALMA DIGITAL - Contenido a respaldar
-│   ├── config_backup/     # ⚙️ Configuración KDE/Hyprland
+│   ├── config_backup/     # ⚙️ Configuración KDE
 │   ├── essentials/        # 🔐 Elementos críticos (GPG, scripts, SSH)
 │   ├── packages_lists/    # 📦 Listas de programas oficiales y AUR
 │   └── reports/           # 📊 Reportes generados
@@ -38,7 +38,7 @@ arch_migration_project/
 ✅ Respaldo completo
 
     Programas: Oficiales y AUR con scripts de reinstalación
-    Configuración: Todo ~/.config/ (KDE, Hyprland, apps)
+    Configuración: Todo ~/.config/ (KDE, apps)
     Elementos personales: SSH, GPG, scripts, redes, AUR repos
 
 ✅ Restauración automatizada
@@ -62,7 +62,6 @@ arch_migration_project/
 🛠️ ENTORNOS SOPORTADOS
 
     ✅ KDE Plasma - Soporte completo
-    ✅ Hyprland - Soporte completo
     ✅ Cualquier WM/DE que use ~/.config/
     ✅ Paquetes oficiales y AUR
     ✅ SSH, GPG y scripts personales
