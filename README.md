@@ -6,19 +6,18 @@
 Sistema automatizado para respaldar y restaurar completamente una instalación de Arch Linux, incluyendo programas, configuración y elementos personales. Soporta KDE Plasma.
 
 ## 📦 ESTRUCTURA
-
-arch_migration_project/
-├── output/                 # 🗂️ ALMA DIGITAL - Contenido a respaldar
-│   ├── config_backup/     # ⚙️ Configuración KDE
-│   ├── essentials/        # 🔐 Elementos críticos (GPG, scripts, SSH)
-│   ├── packages_lists/    # 📦 Listas de programas oficiales y AUR
-│   └── reports/           # 📊 Reportes generados
-├── scripts/
-│   ├── backup/            # 💾 Scripts de respaldo 
-│   └── restore/           # 🔄 Scripts de restauración
-├── docs/
-│   └── MIGRATION_GUIDE.md # 📖 Guía detallada
-└── migration_manager.sh   # 🍒 Menú principal
+    arch_migration_project/
+    ├── output/                 # 🗂️ ALMA DIGITAL - Contenido a respaldar
+    │   ├── config_backup/     # ⚙️ Configuración KDE
+    │   ├── essentials/        # 🔐 Elementos críticos (GPG, scripts, SSH)
+    │   ├── packages_lists/    # 📦 Listas de programas oficiales y AUR
+    │   └── reports/           # 📊 Reportes generados
+    ├── scripts/
+    │   ├── backup/            # 💾 Scripts de respaldo 
+    │   └── restore/           # 🔄 Scripts de restauración
+    ├── docs/
+    │   └── MIGRATION_GUIDE.md # 📖 Guía detallada
+    └── migration_manager.sh   # 🍒 Menú principal
 
 
 ## 🚀 USO RÁPIDO
