@@ -3,7 +3,9 @@
 
 ## 🎯 DESCRIPCIÓN
 
-Sistema automatizado para respaldar y restaurar completamente una instalación de Arch Linux, incluyendo programas, configuración y elementos personales. Soporta KDE Plasma.
+Sistema automatizado para respaldar y restaurar completamente una instalación de Arch Linux, incluyendo programas, configuración y elementos personales. Soporta KDE Plasma. 
+
+### Es personal y sigue en evolución. Lo actualizaré en la medida que lo necesite. Por suerte, tengo ya desde octubre del 25 sin romper el sistema.
 
 ## 📦 ESTRUCTURA
     arch_migration_project/
